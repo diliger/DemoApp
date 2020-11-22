@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Jobs";
+    List<RxJob> jobs = ViewBag.Jobs;
+}
+
+<h2>Display jobs here</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var job in jobs)
+        {
+            <tr>
+                <td>@job.Id</td>
+            </tr>
+        }
+    </tbody>
+</table>
