@@ -35,7 +35,7 @@ namespace DemoApp.Controllers
             return View();
         }
 
-        public IActionResult Complete(Guid id)
+        public JsonResult Complete(Guid id)
         {
             try
             {
