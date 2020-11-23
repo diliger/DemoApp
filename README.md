@@ -29,3 +29,7 @@ Returns JSON with Success = true/false depends on the result of the action.
 
 Detailed manual on how to publish .Net Core web app to the IIS you can read here:
 [.Net Core web app to the IIS](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-5.0&tabs=visual-studio)
+
+# DemoApp.Tests
+
+Project contains 6 simple tests for JobsController and for Api/JobsController.
